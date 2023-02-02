@@ -38,4 +38,15 @@
     return res;
   }
   ``
+  
+  ###  First project: [сurriculum vitae](https://github.com/AlterEgo10/rsschool-cv/blob/gh-pages/cv.md)
 
+
+  * ### Education:
+       + Moscow State Forest University, Forest Engineer
+       + International Law Institute, Jurisprudence
+
+ 
+ 1. ### Lanjuages:
+     1. Russian - native speacer
+     2. English - A2
