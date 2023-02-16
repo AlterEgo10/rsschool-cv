@@ -34,7 +34,6 @@
        console.log(str[i]);
     }
 }
-
     return res;
   }
   ``
