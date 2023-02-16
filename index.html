@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/svg/logo-rsschool3.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div< class="container">
+      <nav class="nav">
+        <ul class="nav-list"  class="link">
+          <li class="nav-item"  class="link">
+            <a href="#contact" class="nav-link" class="link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#brief" class="nav-link"
+              >Brief information about yourself</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link" class="link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#code" class="nav-link">Code</a>
+          </li>
+          <li class="nav-item">
+            <a href="#first" class="nav-link">First project</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Lanjuages" class="nav-link">Lanjuages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <main class="main-container">
+      <div class="container"> </div>
+      <section class="section" class="section-title" id="profile">
+        <h1 class="h1">Valery Maksimov</h1>
+
+      </section>
+      <!--<hr>-->
+      <section class="section" class="section-title" id="contact" >
+        <h2 class="h2">Contact information:</h2>
+        <ul>
+          <li>E-mail: gitval10@mail.ru</li>
+          <li>Telegram: AlterEgo10</li>
+          <li>Discord: Valery#1484</li>
+        </ul>
+      </section>
+      <section class="section" class="section-title" id="brief">
+        <h2 class="h2">Brief information about yourself:</h2>
+        <p>It all started with a book about Python, then I became interested in web development, and now I devote every free minute to JavaScript and what is connected with it. I firmly decided to become a web developer.</p>
+      </section>
+      <section class="section" class="section-title" id="skills">
+        <h2 class="h2">Skills:</h2>
+        <ul>
+          <li>Python syntax</li>
+          <li>Code Basics:<ul>
+            <li>HTML and CSS</li>
+            <li>JavaScript</li>
+          </ul></li>
+        </ul>
+      </section>
+      <section class="section" class="section-title" id="code">
+        <h2 class="h2">Code:</h2>
+        <pre><code>
+          function disemvowel(str) {
+            let glasn = 'aeiou';
+            let res = '';
+            for(let i = 0; i < str.length; i++){
+            if(!glasn.includes(str[i].toLowerCase())){
+               res = `${res}${str[i]}`;
+               console.log(str[i]);
+            }
+        }
+            return res;
+          }
+        </code></pre>
+      </section>
+      <section class="section" class="section-title" id="first">
+        <h2 class="h2"> First project:</h2><p>[сurriculum vitae](https://github.com/AlterEgo10/rsschool-cv/blob/gh-pages/cv.md)
+        </p>
+      </section>
+      <section class="section" class="section-title" id="Education">
+        <h2 class="h2"> Education:</h2>
+      <ul>
+        <li>Moscow State Forest University, Forest Engineer</li>
+        <li>International Law Institute, Jurisprudence</li>
+      </ul>
+      </section>
+      <section class="section" class="section-title" id="Lanjuages">
+        <h2 class="h2">Lanjuages:</h2>
+      <ul>
+        <li>native speacer</li>
+        <li>English - A2</li>
+      </ul>
+      </section>
+   
+    </main>
+    <footer class="footer" class="section" class="section-title">
+       <!-- <div class="container"></div> -->
+       
+        <h2>2023</h2>
+        <img src="assets/img/logo-rsschool3.png" alt="logo-rsschool3">
+      
+    </footer>
+  </body>
+</html>
